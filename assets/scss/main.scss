@@ -1,0 +1,31 @@
+@import 'foundation/settings';
+@import 'foundation/foundation';
+.item {
+	margin: 5px;
+}
+.item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.button{
+	border: 1px solid #000;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.error {
+	color: red;
+}
+input.error {
+	border: 1px solid red;
+}
+.hiden__block {
+	display: none;
+	padding: 10px;
+	margin-bottom: 50px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
